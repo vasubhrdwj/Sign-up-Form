@@ -1,0 +1,35 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.main-page {
+  display: flex;
+  margin: 30px 120px 20px 120px;
+  border: 2px solid black;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 80%;
+}
+.image-sect {
+  flex: 1;
+  margin: 0px;
+  height: 720px;
+  width: 20%;
+  /* position: relative; */
+}
+img {
+  max-width: 80%;
+  height: 100%;
+  /* position: absolute; */
+}
+
+/* .creds {
+  position: absolute;
+} */
+
+.form-sect {
+  flex: 1.2;
+  margin-left: 40px;
+}
