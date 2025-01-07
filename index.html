@@ -40,10 +40,44 @@
         <div class="form-main">
           <form action="#" class="signup-form">
             <p class="heading">Let's do this!</p>
-            <label for="first-name">FIRST NAME</label>
-            <input type="text" name="first-name" id="first-name">
+
+            <div class="form-row">
+              <div>
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" name="first-name" id="first-name" />
+              </div>
+              <div>
+                <label for="last-name">LAST NAME</label>
+                <input type="text" name="last-name" id="last-name" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div>
+                <label for="mail">EMAIL</label>
+                <input type="email" name="email" id="mail" />
+              </div>
+              <div>
+                <label for="phone-num">PHONE NUMBER</label>
+                <input type="tel" name="phone" id="phone-num" pattern="[8-9]{1}[0-9]{9}" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div>
+                <label for="pwd">PASSWORD</label>
+                <input type="password" name="password" id="pwd" required />
+              </div>
+              <div>
+                <label for="cpwd">CONFIRM PASSWORD</label>
+                <input type="password" name="confirm-password" id="cpwd" required />
+              </div>
+            </div>
+          </div>
           </form>
+          <button type="button" class="btn">Create Account</button>
         </div>
+        
       </div>
     </div>
   </body>
